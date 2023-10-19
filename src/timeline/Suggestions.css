@@ -1,0 +1,53 @@
+.suggestions {
+    margin-top: 30px;
+    margin-right: 20px;
+}
+
+.suggestions__title {
+    color: grey;
+    font-weight: bolder;
+    margin-top: 70px;
+}
+
+.suggestion__username_left {
+    display: flex;
+    align-items: center;
+}
+
+.suggestion__username_info {
+    display: flex;
+    flex-direction: column;
+}
+
+.suggestion__relation {
+    color: grey;
+    font-size: 12px;
+}
+
+.suggestion__username {
+    display: flex;
+
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.suggestion__followbutton {
+    color: #0095f6;
+    font-weight: bold;
+    background: 0;
+    border: 0;
+}
+
+.suggestion__followbutton:hover {
+    color: grey;
+    cursor: pointer;
+}
+
+.suggestion__username {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.avatar {
+    margin-right: 10px;
+}
